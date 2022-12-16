@@ -1,0 +1,49 @@
+.row {
+    color: aliceblue;
+    background-color:rgba(0, 0, 0, 0.9);
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0.2vh;
+    box-shadow: 1px 13px 24px 8px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 13px 24px 8px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 13px 24px 8px rgba(0,0,0,0.1);
+    font-size: 1.5vh;
+    overflow: hidden;
+    
+}
+
+.Column {
+    display: table-cell;
+}
+
+
+#shadowdiv {
+    background-color: aqua;
+    box-shadow: 1px 13px 24px 8px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 1px 13px 24px 8px rgba(0,0,0,0.68);
+    -moz-box-shadow: 1px 13px 24px 8px rgba(0,0,0,0.68);
+}
+
+#time {
+    padding-left: 1em;
+    text-align: left 1em;
+}
+
+#serverstat {
+    text-align: center;
+}
+
+#nameid {
+    padding-right: 1em;
+    text-align: right;
+}
+
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(151, 100, 24, 0.336);
+    overflow: hidden;
+    margin: 0;
+
+}
